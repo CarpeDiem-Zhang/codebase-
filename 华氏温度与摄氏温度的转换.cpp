@@ -2,7 +2,7 @@
 	int main()
 	{
 		double c,f;
-			printf("ÇëÊäÈë»ªÊÏÎÂ¶È:");
+			printf("è¯·è¾“å…¥åæ°æ¸©åº¦:");
 			scanf ("%lf",&f);
 			c = 5.0/9.0*(f-32);
 		printf ("%lf",c);

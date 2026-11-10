@@ -6,7 +6,7 @@ int main()
 	if(a>b){
 		temp=a;
 		a=b;
-		b=temp;//a,b»»Î» 
+		b=temp;//a,bæ¢ä½ 
 	}
 		
 	if(a>c){	

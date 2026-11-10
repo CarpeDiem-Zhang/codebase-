@@ -5,11 +5,11 @@ int main()
 	double a,b,c,delta,res_1,res_2; 
 	scanf("%lf%lf%lf" ,&a,&b,&c);
 	
-	delta=b*b-4.0*a*c;  //²»ÄÜĞ´³É1/2 
+	delta=b*b-4.0*a*c;  //ä¸èƒ½å†™æˆ1/2 
 	
 	if(delta>0) 
 	{	
-	res_1=(-b+pow(delta,0.5))/(2.0*a);//¿¼ÂÇ´ğ°¸ÎªĞ¡Êı 
+	res_1=(-b+pow(delta,0.5))/(2.0*a);//è€ƒè™‘ç­”æ¡ˆä¸ºå°æ•° 
 		res_2=(-b-pow(delta,0.5))/(2.0*a);
 		printf("%.2lf %.2lf" ,res_1 ,res_2);
 			

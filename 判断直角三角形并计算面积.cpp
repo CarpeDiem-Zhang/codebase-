@@ -6,7 +6,7 @@ int main()
     scanf("%d %d %d", &a, &b, &c);
     if (a <= 0 || b <= 0 || c <= 0 || (a + b <= c) || (a + c <= b) || (b + c <= a))
     {
-        printf("²»ÊÇÈý½ÇÐÎ");
+        printf("ä¸æ˜¯ä¸‰è§’å½¢");
     }
     else
     {
@@ -27,7 +27,7 @@ int main()
         }
         else
         {
-            printf("ÆäËûÈý½ÇÐÎ");
+            printf("å…¶ä»–ä¸‰è§’å½¢");
         }
     }
     return 0;

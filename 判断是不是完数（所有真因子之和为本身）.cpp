@@ -13,10 +13,10 @@ int main()
 		}
 		
 	if(result=a)
-		cout << "完数\n";
+		cout << "瀹屾暟\n";
 	
 	else
-		cout << "非完数\n";
+		cout << "闈炲畬鏁癨n";
 		 
 	return 0;
 }

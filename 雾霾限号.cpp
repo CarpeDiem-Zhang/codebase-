@@ -1,21 +1,21 @@
 #include<stdio.h>
 int main()
 {
-	int x,w,c,w_h;//x:ÐÇÆÚ  w£ºÎíö²  c£º³µÅÆºÅ   w_h£ºÎ²ºÅ 
+	int x,w,c,w_h;//x:æ˜ŸæœŸ  wï¼šé›¾éœ¾  cï¼šè½¦ç‰Œå·   w_hï¼šå°¾å· 
 	scanf("%d%d%d" ,&x,&w,&c);
 	
-	w_h=c%10;//Çó³µÅÆÎ²ºÅ 
+	w_h=c%10;//æ±‚è½¦ç‰Œå°¾å· 
 	
 	if(x>5)
 		printf("%d no\n",w_h);
 	if(x<=5){
 		 
-		if(w<200)	//ÅÐ¶ÏÎíö²Ìõ¼þ	
+		if(w<200)	//åˆ¤æ–­é›¾éœ¾æ¡ä»¶	
 			printf("%d no\n",w_h);
 		 
 		else if(w>=200 && w<400){
 			switch(x){
-				case 1:              //Ç¶Ì×switchÅÐ¶Ï³µÅÆÎ²ºÅ 
+				case 1:              //åµŒå¥—switchåˆ¤æ–­è½¦ç‰Œå°¾å· 
 					switch(w_h){	
 					case 1:
 					case 6:printf("%d yes\n" ,w_h);break;
