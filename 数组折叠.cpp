@@ -13,15 +13,16 @@ int main()
 	}
 	for(i=0;i<m;i++)
 	{
+		int j;
 		int new_len=len/2;
 		int tmp[100];
-		for(i=0;i<new_len;i++)
+		for(j=0;j<new_len;j++)
 		{
-			tmp[i]=a[i]+a[len-1-i];
+			tmp[j]=a[j]+a[len-1-j];
 		}
-		for(i=0;i<new_len;i++)
+		for(j=0;j<new_len;j++)
 		{
-			a[i]=tmp[i];
+			a[j]=tmp[j];
 			len=new_len;
 		}
 	}
